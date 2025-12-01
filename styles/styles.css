@@ -849,9 +849,45 @@ header{
 /* FOOTER SECTION */
 footer{
     background-color: #24263b;
-    padding: 100px 12.5%;
+    padding: 0px 12.5% 30px;
     text-align: center;
 }
-footer img{
-    
+.footLogo img{
+    margin-top: 100px;
+    width: 170px;
+    margin-bottom: 40px;
 }
+.footLogo p{
+    font-size: 20px;
+    color: #d4d4d4;
+    max-width: 820px;
+    margin: auto;
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+.socialIcons1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    gap: 15px;
+}
+.social1{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #1f2236;
+    border-radius: 100px;
+    background-color: #1f2236;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.social1:hover{
+    background-color: #ff4a4d;
+}
+.footBtm a{
+    text-decoration: none;
+    color: #ff4a4d;
+}
+
