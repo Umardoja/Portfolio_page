@@ -342,7 +342,6 @@ header{
     position: relative;
     left: 0;
     top: 0;
-
 }
 .skillPercent {
     position: absolute;
@@ -891,3 +890,170 @@ footer{
     color: #ff4a4d;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+header {
+  padding: 10px 20px;
+}
+
+.headSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  gap: 25px;
+}
+
+@media (max-width: 768px) {
+  .navList {
+    display: none; 
+  }
+}
+
+.homeSec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+@media (max-width: 900px) {
+  .homeSec {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .socialIcons {
+    justify-content: center;
+  }
+
+  .homeButtons {
+    justify-content: center;
+  }
+}
+
+.ServCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+@media (max-width: 900px) {
+  .ServCards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .ServCards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.aboutDown {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .aboutDown {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .aboutContact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.skillSec {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+@media (max-width: 900px) {
+  .skillSec {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .skillRight {
+    width: 100%;
+  }
+}
+
+.portImg {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .portImg {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .portImg {
+    grid-template-columns: 1fr;
+  }
+}
+
+.priceBottom {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+@media (max-width: 900px) {
+  .priceBottom {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+.experSec {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .experSec {
+    flex-direction: column;
+  }
+}
+
+.testSec {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+@media (max-width: 900px) {
+  .testSec {
+    flex-direction: column;
+    text-align: center;
+  }
+}
